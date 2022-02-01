@@ -70,6 +70,6 @@ jobs:
     - uses: actions/checkout@v2
     - uses: akhileshns/heroku-deploy@v3.0.4 # This is the action
       with:
-        heroku_api_key: ${{secrets.7f082f0c-0ab8-4221-ac55-48aec9794767}}
+        heroku_api_key: ${{secrets.HEROKU_API_KEY}}
         heroku_app_name: "z-util-20220201" # Must be unique in Heroku
-        heroku_email: ${{secrets.zohre.azimi88@gmail.com}}
+        heroku_email: ${{secrets.HEROKU_EMAIL}}
