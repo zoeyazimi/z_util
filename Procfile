@@ -1,1 +1,1 @@
-web: pip install . -U && YOUR_PACKAGE_NAME-run
+web: pip install . -U && z-util-20220201-run
